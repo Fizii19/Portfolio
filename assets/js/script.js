@@ -39,7 +39,7 @@ navLinks.forEach(link => {
 const navbar = document.getElementById('navbar');
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 50) {
+  if (window.scrollY > 550) {
     navbar.classList.add('scrolled');
   } else {
     navbar.classList.remove('scrolled');
