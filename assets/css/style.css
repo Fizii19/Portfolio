@@ -59,7 +59,8 @@ nav {
 
 nav.scrolled {
   width: 90%;
-  left: 5%;
+  /* left: 5%; */
+  transform: translateX(65px);
   top: 20px;
   border-radius: 2rem;
   padding: 15px 30px;
@@ -688,6 +689,10 @@ footer p:nth-child(3) a {
     padding: 100px 40px 50px;
   }
 
+  nav.scrolled {
+    transform: translateX(50px);
+  }
+
   .deskripsi h2 {
     font-size: 3rem;
   }
@@ -709,8 +714,9 @@ footer p:nth-child(3) a {
   }
 
   nav.scrolled {
-    width: 95%;
-    left: 2.5%;
+    width: 80%;
+    /* left: 2.5%; */
+    transform: translateX(80px);
     padding: 12px 20px;
   }
 
@@ -813,6 +819,11 @@ footer p:nth-child(3) a {
 @media (max-width: 480px) {
   .deskripsi h2 {
     font-size: 2rem;
+  }
+
+  nav.scrolled{
+    left: 0;
+    transform: translateX(40px);
   }
 
   .wrap-foto {
